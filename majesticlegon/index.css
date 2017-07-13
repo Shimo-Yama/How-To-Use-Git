@@ -1,0 +1,59 @@
+body {
+	margin: 0;
+	padding: 0;
+	background-color: #aaaaaa;
+}
+
+header {
+	position: fixed;
+	height: 50px;
+	width: 100%;
+	background-color: #ffffff;
+	z-index: 5;
+}
+
+div#header_logo {
+	float: left;
+}
+
+nav#header_nav {
+	float: right;
+}
+
+nav#header_nav > ul {
+	margin: 0;
+}
+
+nav#header_nav li {
+	display: inline-block;
+	list-style-type: none;
+}
+
+nav#header_nav li a {
+	text-decoration: none;
+}
+
+div#top_img {
+	position: fixed;
+	top: 50px;
+	width: 100%;
+	z-index: 0;
+}
+
+div#top_img > img {
+	width: 100%;
+}
+
+div#content_area {
+	position: absolute;
+	height: 3000px;
+	width: 100%;
+	top: 100%;
+	background-color: #ffffff;
+	z-index: 1;
+}
+
+.test {
+	border-style: solid;
+	border-color: #ff0000;
+}
